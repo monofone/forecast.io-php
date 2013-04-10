@@ -1,0 +1,21 @@
+{
+    "name": "monofone/forecast.io",
+    "description": "forecast.io is a weather service",
+    "keywords": ["weather", "forecast.io"],
+    "homepage": "https://github.com/monofone/forecast.io-php",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Sören Rohweder",
+            "email": "monofone@monofone.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": { "Monofone": "./src" }
+    }
+}
