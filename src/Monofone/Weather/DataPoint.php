@@ -200,11 +200,11 @@ class DataPoint {
     }
 
     /**
-     * @return \Monofone\Weather\WeatherIcon
+     * @return string
      */
     public function getIcon()
     {
-        return $this->icon;
+        return $this->icon->getIcon();
     }
 
     /**

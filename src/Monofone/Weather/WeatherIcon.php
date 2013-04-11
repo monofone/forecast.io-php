@@ -34,5 +34,10 @@ class WeatherIcon {
         $this->icon = $icon;
     }
 
+    public function getIcon()
+    {
+        return $this->icon;
+    }
+
 
 }

@@ -24,6 +24,7 @@ class ForecastFactoryTest extends \PHPUnit_Framework_TestCase {
         $forecast = $forecastFactory->convertToForecast($data);
 
         $this->assertInstanceOf('Monofone\Weather\Forecast', $forecast);
+        $this->assertEquals('clear-day', $forecast->getCurrent()->getIcon());
     }
 
 
