@@ -18,7 +18,7 @@ class DataPointFactoryTest extends \PHPUnit_Framework_TestCase {
 
         $this->assertInstanceOf('Monofone\Weather\DataPoint', $dataPoint);
         $this->assertEquals($dataClass->sunriseTime, $dataPoint->getSunriseTime());
-        $this->assertInstanceOf('Monofone\Weather\WeatherIcon', $dataPoint->getIcon());
+        $this->assertEquals('wind', $dataPoint->getIcon());
     }
 
     protected function getDataPointData() {
